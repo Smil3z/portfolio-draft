@@ -1,17 +1,17 @@
 import React from "react";
 import Logo from "../Logo/Logo.jsx";
-
+import "./Navbar.css";
 function Navbar() {
   return (
-    <div className="navbar-layout">
-      <Logo />
-      <ul className="nav-links">
-        <li>Home </li>
-        <li>About </li>
-        <li>Projects </li>
-        <li>Contact </li>
+    <>
+      <ul className="nav">
+        <Logo />
+        <li className="list1">Home </li>
+        <li className="list1">About </li>
+        <li className="list1">Projects </li>
+        <li className="list1">Contact </li>
       </ul>
-    </div>
+    </>
   );
 }
 

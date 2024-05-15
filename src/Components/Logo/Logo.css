@@ -1,0 +1,11 @@
+.logo {
+    position: relative;
+}
+  
+.logo-img {
+    width: 200px; 
+    height: 100px;
+    position: center;
+    top: 0;
+    left: 0;
+}
