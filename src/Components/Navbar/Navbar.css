@@ -4,14 +4,14 @@
   text-align: center;
   padding: 24px 10px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: -9px;
+    margin: -8px;
     background-color: black;
     overflow: hidden;
 }

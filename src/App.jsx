@@ -1,14 +1,15 @@
-import { useState } from "react";
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import "./App.css";
+import VideoBackground from "./Components/VideoBackground/VideoBackground";
+import Hero from "./Components/Hero/Hero";
 
 function App() {
   return (
     <>
       <Navbar />
       <div>
-        <h1>Hello World!!</h1>
+        <VideoBackground />
       </div>
     </>
   );

@@ -5,7 +5,7 @@ function Hero() {
     <div className="videoBackground">
       <div className="overlay">
         <div className="content">
-          <h1> Welcome </h1>
+          <h1> </h1>
           <p> To My Portfolio!</p>
         </div>
       </div>
