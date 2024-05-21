@@ -1,6 +1,6 @@
 import React from "react";
 import videoBg from "../VideoBackground/particle-wave.mp4";
-import "./VideoBackground.css"; // Import the CSS file
+import "./VideoBackground.css";
 
 const VideoBackground = () => {
   return (

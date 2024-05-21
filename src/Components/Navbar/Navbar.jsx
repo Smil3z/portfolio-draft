@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "../Logo/Logo.jsx";
 import "./Navbar.css";
+import { HashRouter as Router, Route } from "react-router-dom";
+
 function Navbar() {
   return (
     <>
