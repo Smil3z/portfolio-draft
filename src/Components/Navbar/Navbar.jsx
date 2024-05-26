@@ -1,17 +1,25 @@
 import React from "react";
 import Logo from "../Logo/Logo.jsx";
 import "./Navbar.css";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
       <ul className="nav">
         <Logo />
-        <li className="list1">Home </li>
-        <li className="list1">About </li>
-        <li className="list1">Projects </li>
-        <li className="list1">Contact </li>
+        <Link className="list1" to="home">
+          Home
+        </Link>
+        <Link className="list1" to="about">
+          About
+        </Link>
+        <Link className="list1" to="projects">
+          Projects
+        </Link>
+        <Link className="list1" to="contact">
+          Contact
+        </Link>
       </ul>
     </>
   );

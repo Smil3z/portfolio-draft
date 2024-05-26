@@ -1,15 +1,17 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import "./App.css";
-import VideoBackground from "./Components/VideoBackground/VideoBackground";
-import { HashRouter as Router, Route } from "react-router-dom";
+import HomePage from "./Components/HomePage/HomePage";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <Navbar />
       <div>
-        <VideoBackground />
+        <Routes>
+          <Route path="/home" element={<HomePage />} />
+        </Routes>
       </div>
     </Router>
   );
