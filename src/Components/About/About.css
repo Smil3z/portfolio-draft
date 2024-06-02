@@ -1,0 +1,20 @@
+h1{
+    color: white;
+}
+
+span{
+    color: white;
+    font-size: x-large;
+}
+
+.myPic{
+    border-radius: 200px;
+    border-style: double;
+    border-color: rgb(56 189 248);
+    border-width: 4px;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
