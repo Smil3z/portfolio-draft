@@ -11,7 +11,7 @@ function About() {
     if (typedRef.current) {
       const options = {
         strings: [
-          "Hello everyone and welcome to my portfolio, my name is Stephon and I am a motivated Full Stack Engineer proficient in HTML, CSS, and JavaScript programming languages. My background is in Web Development and Agile Methodologies. I provide a high level of service to clients in custom development for applications and website proprietary customizations.",
+          "Hello everyone and welcome to my portfolio, my name is Stephon and I am a motivated Full Stack Software Engineer proficient in HTML, CSS, and JavaScript programming languages as well as React. My background is in Software Development and Agile Methodologies. I provide a high level of service to clients in custom development for applications and website proprietary customizations.",
         ],
         typeSpeed: 20,
       };
@@ -42,11 +42,16 @@ function About() {
         >
           <Grid container spacing={15}>
             <Grid item xs={12} md={6}>
-              <Typography color={"white"} fontSize={35}>
+              <Typography color={"white"} fontSize={35} align="center">
                 About Me
               </Typography>
               <br />
-              <img src={me} alt="logo" style={{ width: "100%" }} />
+              <br />
+              <img
+                src={me}
+                alt="logo"
+                style={{ width: "100%", borderRadius: "200px", top: "50px" }}
+              />
             </Grid>
             <Grid item xs={12} md={6}>
               <Typography color={"white"} fontSize={35}>
