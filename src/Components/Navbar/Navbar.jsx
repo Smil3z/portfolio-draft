@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <ul className="nav">
         <Logo />
-        <Link className="list1" to="home">
+        <Link className="list1" to="/">
           Home
         </Link>
         <Link className="list1" to="about">

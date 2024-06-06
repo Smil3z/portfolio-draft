@@ -15,4 +15,5 @@
     margin: -8px;
     background-color: black;
     overflow: hidden;
+    border-bottom: 2px solid #00d5ff;
 }
