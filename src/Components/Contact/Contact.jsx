@@ -41,7 +41,7 @@ function Contact() {
           display: "flex",
           flexDirection: "column",
           gap: 2, // Adds space between the elements
-          alignItems: "center", // Center aligns the elements horizontally
+          alignItems: "center", // Center the elements
         }}
       >
         <TextField
@@ -51,7 +51,7 @@ function Contact() {
           variant="filled"
           size="small"
           inputProps={{ style: { color: "black", backgroundColor: "white" } }}
-          sx={{ width: "370px" }} // Adjust the width as needed
+          sx={{ width: "370px" }} // Adjusting the width
         />
         <TextField
           hiddenLabel

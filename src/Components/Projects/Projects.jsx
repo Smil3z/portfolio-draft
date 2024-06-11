@@ -20,22 +20,25 @@ function Projects() {
           display: "flex",
           gap: 2,
           justifyContent: "center",
-          marginTop: 10,
+          marginTop: 3,
         }}
       >
         {/*First Card*/}
-
         <Card
           sx={{
             maxWidth: 345,
             backgroundColor: "#00ced6",
+            height: 760,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
           }}
           variant="outlined"
         >
           <CardActionArea>
             <CardMedia
               component="img"
-              height="200"
+              height="350"
               image="src/Components/Projects/screenshots/Screenshot 2024-01-24 at 1.10.15 PM.png"
               alt="go fish"
             />
@@ -72,15 +75,21 @@ function Projects() {
         </Card>
 
         {/*Second Card*/}
-
         <Card
-          sx={{ maxWidth: 345, backgroundColor: "#00ced6" }}
+          sx={{
+            maxWidth: 345,
+            backgroundColor: "#00ced6",
+            height: 690,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+          }}
           variant="outlined"
         >
           <CardActionArea>
             <CardMedia
               component="img"
-              height="200"
+              height="350"
               image="src/Components/Projects/screenshots/Screenshot 2024-01-24 at 1.10.15 PM.png"
               alt="go fish"
             />
@@ -94,10 +103,12 @@ function Projects() {
                 To-Do App
               </Typography>
               <Typography variant="body1" sx={{ color: "white" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a
-                aliquid quibusdam numquam, nostrum inventore nam cupiditate id
-                repellat deleniti necessitatibus odio culpa ipsam quis maxime
-                optio iure quae asperiores?
+                This app is designed to give the user the ability to add, edit
+                and delete tasks. The user will also be able to mark the task as
+                complete and have the option to view all completed tasks. The
+                user will also have the option to view all tasks, completed
+                tasks, and incomplete tasks. The user will also have the option
+                to edit or delete the task.
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -112,15 +123,21 @@ function Projects() {
         </Card>
 
         {/*Third Card*/}
-
         <Card
-          sx={{ maxWidth: 345, backgroundColor: "#00ced6" }}
+          sx={{
+            maxWidth: 345,
+            backgroundColor: "#00ced6",
+            height: 760,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+          }}
           variant="outlined"
         >
           <CardActionArea>
             <CardMedia
               component="img"
-              height="200"
+              height="350"
               image="src/Components/Projects/screenshots/Screenshot 2024-01-24 at 1.10.15 PM.png"
               alt="go fish"
             />
@@ -134,10 +151,14 @@ function Projects() {
                 Six Degrees of Kevin Bacon
               </Typography>
               <Typography variant="body1" sx={{ color: "white" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a
-                aliquid quibusdam numquam, nostrum inventore nam cupiditate id
-                repellat deleniti necessitatibus odio culpa ipsam quis maxime
-                optio iure quae asperiores?
+                The Sixth Degree is a digital version of the game 'The Six
+                Degrees of Kevin Bacon'. The app allows two users to play the
+                game against one another and has a scoring system to identify
+                winners and losers of a challenge. The app is built with React,
+                Redux, Node.js, PostgreSQL, and the Movie Database Project's
+                API. Users save scripts (cards to play against one another) and
+                challenge one another to see who can create the closest links
+                between actors and movies.
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -152,15 +173,21 @@ function Projects() {
         </Card>
 
         {/*Fourth Card*/}
-
         <Card
-          sx={{ maxWidth: 345, backgroundColor: "#00ced6" }}
+          sx={{
+            maxWidth: 345,
+            backgroundColor: "#00ced6",
+            height: 600,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+          }}
           variant="outlined"
         >
           <CardActionArea>
             <CardMedia
               component="img"
-              height="200"
+              height="340"
               image="src/Components/Projects/screenshots/Screenshot 2024-01-24 at 1.10.15 PM.png"
               alt="go fish"
             />
