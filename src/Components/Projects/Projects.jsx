@@ -90,7 +90,7 @@ function Projects() {
             <CardMedia
               component="img"
               height="350"
-              image="src/Components/Projects/screenshots/Screenshot 2024-01-24 at 1.10.15 PM.png"
+              image="src/Components/Projects/screenshots/Todo-screenshot.png"
               alt="go fish"
             />
             <CardContent sx={{ backgroundColor: "black" }}>
@@ -138,8 +138,8 @@ function Projects() {
             <CardMedia
               component="img"
               height="350"
-              image="src/Components/Projects/screenshots/Screenshot 2024-01-24 at 1.10.15 PM.png"
-              alt="go fish"
+              image="src/Components/Projects/screenshots/six-degrees.png"
+              alt="six degrees of kevin bacon"
             />
             <CardContent sx={{ backgroundColor: "black" }}>
               <Typography
@@ -177,7 +177,7 @@ function Projects() {
           sx={{
             maxWidth: 345,
             backgroundColor: "#00ced6",
-            height: 600,
+            height: 630,
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
@@ -188,7 +188,7 @@ function Projects() {
             <CardMedia
               component="img"
               height="340"
-              image="src/Components/Projects/screenshots/Screenshot 2024-01-24 at 1.10.15 PM.png"
+              image="src/Components/Projects/screenshots/giphy1.png"
               alt="go fish"
             />
             <CardContent sx={{ backgroundColor: "black" }}>
@@ -198,13 +198,14 @@ function Projects() {
                 component="div"
                 sx={{ color: "white" }}
               >
-                Six Degrees of Kevin Bacon
+                Giphy App
               </Typography>
               <Typography variant="body1" sx={{ color: "white" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a
-                aliquid quibusdam numquam, nostrum inventore nam cupiditate id
-                repellat deleniti necessitatibus odio culpa ipsam quis maxime
-                optio iure quae asperiores?
+                Think "Giphy" but with a twist. This app is designed to give the
+                user the ability to search for gifs based on a keyword. The user
+                will also have the option to favorite a gif and view all
+                favorited gifs. The user will also have the option to view all
+                gifs and delete a gif from the favorites list.
               </Typography>
             </CardContent>
           </CardActionArea>
