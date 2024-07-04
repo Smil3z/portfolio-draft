@@ -65,10 +65,25 @@ function Projects() {
             </CardContent>
           </CardActionArea>
           <CardActions sx={{ backgroundColor: "#00ced6" }}>
-            <Button size="small" color="primary" variant="contained">
+            <Button
+              size="small"
+              color="primary"
+              variant="contained"
+              onClick={() =>
+                (window.location.href =
+                  "https://go-f1sh-5ac4e1e3e68c.herokuapp.com/#/home")
+              }
+            >
               Live Demo
             </Button>
-            <Button size="small" color="primary" variant="contained">
+            <Button
+              size="small"
+              color="primary"
+              variant="contained"
+              onClick={() =>
+                (window.location.href = "https://github.com/Smil3z/Go-Fish")
+              }
+            >
               Code
             </Button>
           </CardActions>
@@ -91,7 +106,7 @@ function Projects() {
               component="img"
               height="350"
               image="src/Components/Projects/screenshots/Todo-screenshot.png"
-              alt="go fish"
+              alt="to-do app"
             />
             <CardContent sx={{ backgroundColor: "black" }}>
               <Typography
@@ -116,7 +131,14 @@ function Projects() {
             <Button size="small" color="primary" variant="contained">
               Live Demo
             </Button>
-            <Button size="small" color="primary" variant="contained">
+            <Button
+              size="small"
+              color="primary"
+              variant="contained"
+              onClick={() =>
+                (window.location.href = "https://github.com/Smil3z/todo-app")
+              }
+            >
               Code
             </Button>
           </CardActions>
@@ -166,7 +188,15 @@ function Projects() {
             <Button size="small" color="primary" variant="contained">
               Live Demo
             </Button>
-            <Button size="small" color="primary" variant="contained">
+            <Button
+              onClick={() =>
+                (window.location.href =
+                  "https://github.com/Smil3z/the-sixth-degree")
+              }
+              size="small"
+              color="primary"
+              variant="contained"
+            >
               Code
             </Button>
           </CardActions>
@@ -213,7 +243,15 @@ function Projects() {
             <Button size="small" color="primary" variant="contained">
               Live Demo
             </Button>
-            <Button size="small" color="primary" variant="contained">
+            <Button
+              onClick={() =>
+                (window.location.href =
+                  "https://github.com/Smil3z/giphy-saga-project")
+              }
+              size="small"
+              color="primary"
+              variant="contained"
+            >
               Code
             </Button>
           </CardActions>
