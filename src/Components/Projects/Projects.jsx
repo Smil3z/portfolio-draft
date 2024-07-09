@@ -128,7 +128,15 @@ function Projects() {
             </CardContent>
           </CardActionArea>
           <CardActions sx={{ backgroundColor: "#00ced6" }}>
-            <Button size="small" color="primary" variant="contained">
+            <Button
+              size="small"
+              color="primary"
+              variant="contained"
+              onClick={() =>
+                (window.location.href =
+                  "https://t0d0l1st-b6be7a9aebfb.herokuapp.com/")
+              }
+            >
               Live Demo
             </Button>
             <Button
@@ -185,7 +193,15 @@ function Projects() {
             </CardContent>
           </CardActionArea>
           <CardActions sx={{ backgroundColor: "#00ced6" }}>
-            <Button size="small" color="primary" variant="contained">
+            <Button
+              size="small"
+              color="primary"
+              variant="contained"
+              onClick={() =>
+                (window.location.href =
+                  "https://calm-badlands-51898-e8d37fb47330.herokuapp.com/")
+              }
+            >
               Live Demo
             </Button>
             <Button
@@ -240,7 +256,15 @@ function Projects() {
             </CardContent>
           </CardActionArea>
           <CardActions sx={{ backgroundColor: "#00ced6" }}>
-            <Button size="small" color="primary" variant="contained">
+            <Button
+              size="small"
+              color="primary"
+              variant="contained"
+              onClick={() =>
+                (window.location.href =
+                  "https://giphy-app-search-23c8a3b71a5d.herokuapp.com/#/")
+              }
+            >
               Live Demo
             </Button>
             <Button
