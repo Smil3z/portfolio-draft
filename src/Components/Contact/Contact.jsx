@@ -30,9 +30,23 @@ function Contact() {
           marginBottom: "15px",
         }}
       >
-        <LinkedInIcon sx={{ fontSize: 150 }} />
-        <GitHubIcon sx={{ fontSize: 150 }} />
-        <EmailIcon sx={{ fontSize: 150 }} />
+        <LinkedInIcon
+          sx={{ fontSize: 150 }}
+          onClick={() =>
+            (window.location.href = "https://www.linkedin.com/in/stephontonge/")
+          }
+        />
+        <GitHubIcon
+          sx={{ fontSize: 150 }}
+          onClick={() => (window.location.href = "https://github.com/Smil3z")}
+        />
+        <EmailIcon
+          sx={{ fontSize: 150 }}
+          onClick={() =>
+            (window.location.href =
+              "mailto:stephon.tonge75@gmail.com?subject=Hello!&body=Hi Smil3z!")
+          }
+        />
       </Box>
       <Box
         component="form"
