@@ -25,62 +25,44 @@ function Contact() {
       <Box
         sx={{
           display: "flex",
-          alignItems: "center",
-          color: "white",
-          marginBottom: "15px",
-        }}
-      >
-        <LinkedInIcon
-          sx={{ fontSize: 150 }}
-          onClick={() =>
-            (window.location.href = "https://www.linkedin.com/in/stephontonge/")
-          }
-        />
-        <GitHubIcon
-          sx={{ fontSize: 150 }}
-          onClick={() => (window.location.href = "https://github.com/Smil3z")}
-        />
-        <EmailIcon
-          sx={{ fontSize: 150 }}
-          onClick={() =>
-            (window.location.href =
-              "mailto:stephon.tonge75@gmail.com?subject=Hello!&body=Hi Smil3z!")
-          }
-        />
-      </Box>
-      <Box
-        component="form"
-        noValidate
-        sx={{
-          display: "flex",
           flexDirection: "column",
-          gap: 2, // Adds space between the elements
-          alignItems: "center", // Center the elements
+          alignItems: "center",
+          justifyContent: "center",
+          color: "white",
+          // Make the box take the full height of the viewport
         }}
       >
-        <TextField
-          hiddenLabel
-          id="filled-hidden-label-small-email"
-          defaultValue="Email"
-          variant="filled"
-          size="small"
-          inputProps={{ style: { color: "black", backgroundColor: "white" } }}
-          sx={{ width: "370px" }} // Adjusting the width
-        />
-        <TextField
-          hiddenLabel
-          id="filled-hidden-label-small-message"
-          defaultValue="Message"
-          variant="filled"
-          size="large"
-          multiline
-          rows={4} // Adjust the number of rows as needed
-          inputProps={{ style: { color: "black", backgroundColor: "white" } }}
-          sx={{ width: "380px" }} // Adjust the width as needed
-        />
-        <Button variant="contained" sx={{ width: "300px" }}>
-          Submit
-        </Button>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <LinkedInIcon
+            sx={{ fontSize: 150, margin: "0 10px" }}
+            onClick={() =>
+              (window.location.href =
+                "https://www.linkedin.com/in/stephontonge/")
+            }
+          />
+          <GitHubIcon
+            sx={{ fontSize: 150, margin: "0 10px" }}
+            onClick={() => (window.location.href = "https://github.com/Smil3z")}
+          />
+          <EmailIcon
+            sx={{ fontSize: 150, margin: "0 10px" }}
+            onClick={() =>
+              (window.location.href =
+                "mailto:stephon.tonge75@gmail.com?subject=Hello!&body=Hi Smil3z!")
+            }
+          />
+        </Box>
+        <Typography
+          variant="h3"
+          sx={{ textAlign: "center", color: "white", marginBottom: "20px" }}
+        >
+          Click on Icons to continue!
+        </Typography>
       </Box>
     </Box>
   );
